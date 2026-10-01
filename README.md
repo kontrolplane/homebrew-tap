@@ -6,6 +6,7 @@ Homebrew casks for [kontrolplane](https://kontrolplane.dev) tools.
 
 ```sh
 brew install kontrolplane/tap/kue
+brew install kontrolplane/tap/lekture
 brew install kontrolplane/tap/tsui
 ```
 
@@ -21,6 +22,7 @@ brew install tsui
 | Name | Description |
 | ---- | ----------- |
 | [kue](https://github.com/kontrolplane/kue) | A terminal user interface for Amazon SQS. |
+| [lekture](https://github.com/kontrolplane/lekture) | A terminal user interface for presenting markdown slideshows. |
 | [tsui](https://github.com/kontrolplane/tsui) | A terminal user interface for NATS. |
 
 ## Maintenance
