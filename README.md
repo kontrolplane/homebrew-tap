@@ -5,25 +5,31 @@ Homebrew casks for [kontrolplane](https://kontrolplane.dev) tools.
 ## Install
 
 ```sh
+brew install kontrolplane/tap/koldstart
 brew install kontrolplane/tap/kue
 brew install kontrolplane/tap/lekture
-brew install kontrolplane/tap/tsui
+brew install kontrolplane/tap/relay
+brew install kontrolplane/tap/stdout
+brew install kontrolplane/tap/tablespace
 ```
 
 Or tap once and install by name:
 
 ```sh
 brew tap kontrolplane/tap
-brew install tsui
+brew install relay
 ```
 
 ## Casks
 
 | Name | Description |
 | ---- | ----------- |
+| [koldstart](https://github.com/kontrolplane/koldstart) | Deploy serverless applications to AWS Lambda. Also installed as `kdst`. |
 | [kue](https://github.com/kontrolplane/kue) | A terminal user interface for Amazon SQS. |
 | [lekture](https://github.com/kontrolplane/lekture) | A terminal user interface for presenting markdown slideshows. |
-| [tsui](https://github.com/kontrolplane/tsui) | A terminal user interface for NATS. |
+| [relay](https://github.com/kontrolplane/relay) | A terminal user interface for NATS. |
+| [stdout](https://github.com/kontrolplane/stdout) | A terminal user interface for following Loki logs. |
+| [tablespace](https://github.com/kontrolplane/tablespace) | A terminal user interface for PostgreSQL. |
 
 ## Maintenance
 
